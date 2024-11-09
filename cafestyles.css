@@ -1,0 +1,366 @@
+.logo {
+    width: 100px;  
+    height: auto; 
+    position: absolute; 
+    top: 20px; 
+    left: 20px; 
+}
+/* Style for the navigation bar */
+nav {
+    background-color: #5d382F; /* Brownish-red background for the nav */
+    padding: 10px; /* Padding around the nav links */
+    height: 50px; 
+}
+
+/* Style for the unordered list */
+nav ul {
+    display: flex; /* Use flexbox to arrange items in a row */
+    list-style-type: none; /* Remove bullet points */
+    margin: 20; /* Remove default margin */
+    padding: 40; /* Remove default padding */
+    justify-content: flex-end;
+}
+
+/* Style for the list items */
+nav ul li {
+    margin: 0 15px; /* Space between links */
+}
+
+/* Style for the links */
+nav ul li a {
+    color: #FAF9F6; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+}
+
+/* Change link color on hover */
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #FFD700; /* Change color on hover (gold) */
+}
+.banner { 
+    background-image: url(websitebg2.jpeg);
+    background-position: center center; 
+    background-size: cover;
+    height: 600px; 
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+    padding-left: 20px; /* Add padding to the left for spacing */
+}
+
+.headline {
+    text-align: left; /* Align the text to the left */
+    font-size: 3em; /* Larger font size */
+    color: #FAF9F6; /* White text color */
+    margin: 100px; /* Reset margin */
+    padding: 20px 0; /* Padding around the text */
+    border-radius: 10px; /* Rounded corners */
+    font-family: 'Georgia', serif; /* Elegant font */
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+.inquire-button {
+   
+    background-color: #FAF9F6;
+    color: #8B4513;
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 1em; /* Font size */
+    cursor: pointer; /* Change cursor on hover */
+    margin-top: 20px; /* Space above the button */
+    margin-left: 100px; 
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+.inquire-button:hover {
+
+    background-color: #D2B48C; /* Beige background */
+    color: #FAF9F6;
+}
+.product-gallery {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    max-width: 1000px;
+    margin-top: 40px;
+}
+
+.product-gallery img {
+    width: 200px;    /* Set a fixed width */
+    height: 300px;   /* Set a fixed height */
+    object-fit: cover; /* Crop the image to fit within the set dimensions */
+    border-radius: 8px; /* Optional: add rounded corners */
+}
+
+.product {
+    text-align: center;
+    width: 200px;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.product-image:hover {
+    transform: scale(1.05);
+}
+
+.product-name a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0 5px;
+    transition: color 0.2s ease;
+}
+
+.product-name a:hover {
+    color: #007BFF;
+}
+
+.product-price {
+    color: #666;
+    font-size: 0.9em;
+}
+.banner1 { 
+    background-color: #d7cbc1;
+    background-position: center center; 
+    background-size: cover;
+    height: 500px; 
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+    padding-left: 20px; /* Add padding to the left for spacing */
+}
+
+.branches-list {
+    display: flex;
+    gap: 120px;
+    padding: 20px;
+    max-width: 1000px;
+    margin-top: 40px;
+}
+
+.branches-list img {
+    width: 260px;    /* Set a fixed width */
+    height: 260px;   /* Set a fixed height */
+    object-fit: cover; /* Crop the image to fit within the set dimensions */
+    border-radius: 8px; /* Optional: add rounded corners */
+}
+
+.branch {
+    text-align: center;
+    width: 200px;
+}
+
+.branch-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+}
+
+.branch-image:hover {
+    transform: scale(1.05);
+}
+
+.branch-name a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 0 5px;
+    transition: color 0.2s ease;
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.about-image {
+    margin-top: 40px; /* Adjust this value as needed */
+}
+.about-image img {
+    width: 500px;
+    height: auto;
+    border-radius: 10px; /* Optional: adds rounded corners */
+    margin-right: 60px; /* Space between image and text */
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.product1-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.product1-image {
+    margin-top: 40px; /* Adjust this value as needed */
+}
+.product1-image img {
+    width: 300px;    /* Set a fixed width */
+    height: 400px;   /* Set a fixed height */
+    object-fit: cover; /* Crop the image to fit within the set dimensions */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    margin-right: 80px; /* Space between image and text */
+}
+
+.product1-text {
+    max-width: 600px;
+}
+
+.product1-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.product1-text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.product2-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.product2-image {
+    margin-top: 40px; /* Adjust this value as needed */
+}
+.product2-image img {
+    width: 300px;    /* Set a fixed width */
+    height: 400px;   /* Set a fixed height */
+    object-fit: cover; /* Crop the image to fit within the set dimensions */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    margin-right: 80px; /* Space between image and text */
+}
+
+.product2-text {
+    max-width: 600px;
+}
+
+.product2-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.product2-text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.product2-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.product2-image {
+    margin-top: 40px; /* Adjust this value as needed */
+}
+.product2-image img {
+    width: 300px;    /* Set a fixed width */
+    height: 400px;   /* Set a fixed height */
+    object-fit: cover; /* Crop the image to fit within the set dimensions */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    margin-right: 80px; /* Space between image and text */
+}
+
+.product2-text {
+    max-width: 600px;
+}
+
+.product2-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.product2-text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.product3-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.product3-image {
+    margin-top: 40px; /* Adjust this value as needed */
+}
+.product3-image img {
+    width: 300px;    /* Set a fixed width */
+    height: 400px;   /* Set a fixed height */
+    object-fit: cover; /* Crop the image to fit within the set dimensions */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    margin-right: 80px; /* Space between image and text */
+}
+
+.product3-text {
+    max-width: 600px;
+}
+
+.product3-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.product3-text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.product4-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.product4-image {
+    margin-top: 40px; /* Adjust this value as needed */
+}
+.product4-image img {
+    width: 300px;    /* Set a fixed width */
+    height: 400px;   /* Set a fixed height */
+    object-fit: cover; /* Crop the image to fit within the set dimensions */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    margin-right: 80px; /* Space between image and text */
+}
+
+.product4-text {
+    max-width: 600px;
+}
+
+.product4-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.product4-text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
